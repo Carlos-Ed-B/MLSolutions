@@ -1,0 +1,9 @@
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Infrastructure\bin\Debug\netcoreapp3.1\ML.Infrastructure.deps.json
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Infrastructure\bin\Debug\netcoreapp3.1\ML.Infrastructure.dll
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Infrastructure\bin\Debug\netcoreapp3.1\ML.Infrastructure.pdb
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Infrastructure\obj\Debug\netcoreapp3.1\ML.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Infrastructure\obj\Debug\netcoreapp3.1\ML.Infrastructure.AssemblyInfoInputs.cache
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Infrastructure\obj\Debug\netcoreapp3.1\ML.Infrastructure.AssemblyInfo.cs
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Infrastructure\obj\Debug\netcoreapp3.1\ML.Infrastructure.dll
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Infrastructure\obj\Debug\netcoreapp3.1\ML.Infrastructure.pdb
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Infrastructure\obj\Debug\netcoreapp3.1\ML.Infrastructure.csprojAssemblyReference.cache

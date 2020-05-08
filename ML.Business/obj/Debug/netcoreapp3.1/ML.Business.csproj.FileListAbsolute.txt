@@ -1,0 +1,16 @@
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Business\bin\Debug\netcoreapp3.1\ML.Business.deps.json
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Business\bin\Debug\netcoreapp3.1\ML.Business.dll
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Business\bin\Debug\netcoreapp3.1\ML.Business.pdb
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Business\obj\Debug\netcoreapp3.1\ML.Business.AssemblyInfoInputs.cache
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Business\obj\Debug\netcoreapp3.1\ML.Business.AssemblyInfo.cs
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Business\obj\Debug\netcoreapp3.1\ML.Business.dll
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Business\obj\Debug\netcoreapp3.1\ML.Business.pdb
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Business\bin\Debug\netcoreapp3.1\DataSource\uf_cidade.csv
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Business\bin\Debug\netcoreapp3.1\ML.Infrastructure.dll
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Business\bin\Debug\netcoreapp3.1\ML.Modes.dll
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Business\bin\Debug\netcoreapp3.1\ML.Infrastructure.pdb
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Business\bin\Debug\netcoreapp3.1\ML.Modes.pdb
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Business\obj\Debug\netcoreapp3.1\ML.Business.csprojAssemblyReference.cache
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Business\obj\Debug\netcoreapp3.1\ML.Business.csproj.CoreCompileInputs.cache
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Business\obj\Debug\netcoreapp3.1\ML.Business.csproj.CopyComplete
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Business\bin\Debug\netcoreapp3.1\DataSource\tipoVeiculo_marca.csv

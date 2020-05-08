@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Iris\DataSource\" />
+    <Folder Include="Mushrooms\DataSource\" />
+    <Folder Include="Mushrooms\Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ConsoleTables" Version="2.4.1" />
+    <PackageReference Include="Microsoft.ML" Version="1.4.0" />
+    <PackageReference Include="Microsoft.ML.LightGBM" Version="1.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ML.Infrastructure\ML.Infrastructure.csproj" />
+    <ProjectReference Include="..\ML.Modes\ML.Modes.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Iris\DataSource\iris-full.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Mushrooms\DataSource\mushrooms.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="HighwayBrazilAccidents\DataSource\HighwayBrazilAccidents.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

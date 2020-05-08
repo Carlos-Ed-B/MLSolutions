@@ -1,0 +1,12 @@
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Infrastructure.Web\bin\Release\netcoreapp3.1\ML.Infrastructure.Web.deps.json
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Infrastructure.Web\bin\Release\netcoreapp3.1\ML.Infrastructure.Web.dll
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Infrastructure.Web\bin\Release\netcoreapp3.1\ML.Infrastructure.Web.pdb
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Infrastructure.Web\bin\Release\netcoreapp3.1\ML.Infrastructure.dll
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Infrastructure.Web\bin\Release\netcoreapp3.1\ML.Infrastructure.pdb
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Infrastructure.Web\obj\Release\netcoreapp3.1\ML.Infrastructure.Web.csprojAssemblyReference.cache
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Infrastructure.Web\obj\Release\netcoreapp3.1\ML.Infrastructure.Web.csproj.CoreCompileInputs.cache
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Infrastructure.Web\obj\Release\netcoreapp3.1\ML.Infrastructure.Web.AssemblyInfoInputs.cache
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Infrastructure.Web\obj\Release\netcoreapp3.1\ML.Infrastructure.Web.AssemblyInfo.cs
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Infrastructure.Web\obj\Release\netcoreapp3.1\ML.Infrastructure.Web.csproj.CopyComplete
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Infrastructure.Web\obj\Release\netcoreapp3.1\ML.Infrastructure.Web.dll
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Infrastructure.Web\obj\Release\netcoreapp3.1\ML.Infrastructure.Web.pdb

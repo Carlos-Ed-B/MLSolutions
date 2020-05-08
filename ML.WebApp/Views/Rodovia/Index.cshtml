@@ -1,0 +1,183 @@
+﻿@model ML.Modes.HighwayBrazilAccidents.HighwayBrazilAccidentsData
+
+@{
+    ViewData["Title"] = "Acidentes em Rodovias";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Acidentes em Rodovias</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form id="formToAction"
+              asp-action="DoPredict" asp-controller="Rodovia"
+              data-ajax-method="POST"
+              data-ajax="true"
+              data-ajax-begin="onSendBegin"
+              data-ajax-complete="onSendComplete"
+              data-ajax-success="onSendSucess"
+              data-ajax-failure="onSendFailure">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="row">
+                <div class="col col-md-2">
+                    <div class="form-group">
+                        <label asp-for="Tipo_envolvido" class="control-label">Tipo de Envolvido</label>
+                        <select asp-for="Tipo_envolvido" class="form-control">
+                            <option value=""></option>
+                            <option value="Condutor">Condutor</option>
+                            <option value="Passageiro">Passageiro</option>
+                        </select>
+                        <span asp-validation-for="Tipo_envolvido" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label asp-for="Causa_acidente" class="control-label">Estilo de Condução/Condição do veículo</label>
+                        <select asp-for="Causa_acidente" class="form-control">
+                            <option value=""></option>
+                            <option value="Agressão Externa">Agressão Externa</option>
+                            <option value="Animais na Pista">Animais na Pista</option>
+                            <option value="Avarias e/ou desgaste excessivo no pneu">Pneu careca</option>
+                            <option value="Carga excessiva e/ou mal acondicionada">Carga excessiva e/ou mal acondicionada</option>
+                            <option value="Condutor Dormindo">Condutor Dormindo</option>
+                            <option value="Defeito Mecânico no Veículo">Defeito Mecânico no Veículo</option>
+                            <option value="Defeito na Via">Defeito na Via</option>
+                            <option value="Deficiência ou não Acionamento do Sistema de Iluminação/Sinalização do Veículo">Deficiência ou não Acionamento do Sistema de Iluminação/Sinalização do Veículo</option>
+                            <option value="Desobediência às normas de trânsito pelo condutor">Desobediência às normas de trânsito</option>
+                            @*<option value="Desobediência às normas de trânsito pelo pedestre">Desobediência às normas de trânsito pelo pedestre</option>*@
+                            <option value="Falta de Atenção à Condução">Falta de Atenção à Condução</option>
+                            @*<option value="Falta de Atenção do Pedestre">Falta de Atenção do Pedestre</option>*@
+                            <option value="Fenômenos da Natureza">Fenômenos da Natureza</option>
+                            <option value="Ingestão de Álcool">Ingestão de Álcool</option>
+                            @*<option value="Ingestão de álcool e/ou substâncias psicoativas pelo pedestre">Ingestão de álcool e/ou substâncias psicoativas pelo pedestre</option>*@
+                            <option value="Ingestão de Substâncias Psicoativas">Ingestão de Substâncias Psicoativas</option>
+                            <option value="Mal Súbito">Mal Súbito</option>
+                            <option value="Não guardar distância de segurança">Não guardar distância de segurança</option>
+                            <option value="Objeto estático sobre o leito carroçável">Objeto estático sobre o leito carroçável</option>
+                            <option value="Pista Escorregadia">Pista Escorregadia</option>
+                            <option value="Restrição de Visibilidade">Restrição de Visibilidade</option>
+                            <option value="Sinalização da via insuficiente ou inadequada">Sinalização da via insuficiente ou inadequada</option>
+                            <option value="Ultrapassagem Indevida">Ultrapassagem Indevida</option>
+                            <option value="Velocidade Incompatível">Velocidade Incompatível</option>
+
+                        </select>
+                        <span asp-validation-for="Causa_acidente" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col col-md-2">
+                    <div class="form-group">
+                        <label asp-for="Uf" class="control-label"></label>
+                        <select asp-for="Uf" class="form-control">
+                            <option value=""></option>
+                            <option value="AC">AC</option>
+                            <option value="AL">AL</option>
+                            <option value="AM">AM</option>
+                            <option value="AP">AP</option>
+                            <option value="BA">BA</option>
+                            <option value="CE">CE</option>
+                            <option value="DF">DF</option>
+                            <option value="ES">ES</option>
+                            <option value="GO">GO</option>
+                            <option value="MA">MA</option>
+                            <option value="MG">MG</option>
+                            <option value="MS">MS</option>
+                            <option value="MT">MT</option>
+                            <option value="PA">PA</option>
+                            <option value="PB">PB</option>
+                            <option value="PE">PE</option>
+                            <option value="PI">PI</option>
+                            <option value="PR">PR</option>
+                            <option value="RJ">RJ</option>
+                            <option value="RN">RN</option>
+                            <option value="RO">RO</option>
+                            <option value="RR">RR</option>
+                            <option value="RS">RS</option>
+                            <option value="SC">SC</option>
+                            <option value="SE">SE</option>
+                            <option value="SP">SP</option>
+                            <option value="TO">TO</option>
+                        </select>
+                        <span asp-validation-for="Uf" class="text-danger"></span>
+                    </div>
+
+                </div>
+
+                <div class="col  col-md-8">
+                    <div class="form-group">
+                        <label asp-for="Municipio" class="control-label"></label>
+                        <select asp-for="Municipio" class="form-control">
+                            <option value=""></option>
+                        </select>
+                        <span asp-validation-for="Municipio" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="col  col-md-2">
+                    <div class="form-group">
+                        <label asp-for="Km" class="control-label"></label>
+                        <select asp-for="Km" class="form-control">
+                            <option value=""></option>
+                        </select>
+                        <span asp-validation-for="Km" class="text-danger"></span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col col-md-2">
+                    <div class="form-group">
+                        <label asp-for="Tipo_veiculo" class="control-label">Tipo de Veículo</label>
+                        <select asp-for="Tipo_veiculo" class="form-control">
+                            <option value=""></option>
+                            <option value="Automóvel">Automóvel</option>
+                            <option value="Bicicleta">Bicicleta</option>
+                            <option value="Caminhão">Caminhão</option>
+                            <option value="Caminhão-trator">Caminhão-trator</option>
+                            <option value="Caminhonete">Caminhonete</option>
+                            <option value="Camioneta">Camioneta</option>
+                            <option value="Ciclomotor">Ciclomotor</option>
+                            <option value="Micro-ônibus">Micro-ônibus</option>
+                            <option value="Motocicleta">Motocicleta</option>
+                            <option value="Motoneta">Motoneta</option>
+                            <option value="Ônibus">Ônibus</option>
+                            <option value="Outros">Outros</option>
+                            <option value="Reboque">Reboque</option>
+                            <option value="Semireboque">Semireboque</option>
+                            <option value="Trator de rodas">Trator de rodas</option>
+                            <option value="Trator misto">Trator misto</option>
+                            <option value="Triciclo">Triciclo</option>
+                            <option value="Utilitário">Utilitário</option>
+                        </select>
+                        <span asp-validation-for="Tipo_veiculo" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label asp-for="Marca" class="control-label"></label>
+                        <select asp-for="Marca" class="form-control">
+                            <option value=""></option>
+                        </select>
+                        <span asp-validation-for="Marca" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Analisar" class="btn btn-primary" />
+            </div>
+            <div id="formResults"></div>
+        </form>
+    </div>
+</div>
+
+@section Scripts
+    {
+    <script src="~/js/services/RodoviaService.js"></script>
+}
+

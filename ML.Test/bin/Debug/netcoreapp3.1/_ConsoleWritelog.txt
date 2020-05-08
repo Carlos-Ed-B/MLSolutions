@@ -1,0 +1,48 @@
+============ Mushrooms Predict =============
+    Class: e
+    Prob. Classe 0: 0
+    Prob. Classe 1: 1
+============================================
+============ Mushrooms Predict =============
+    Class: p
+    Prob. Classe 0: 1
+    Prob. Classe 1: 0
+============================================
+============ Mushrooms Predict =============
+    Class: e
+    Prob. Classe 0: 0
+    Prob. Classe 1: 1
+============================================
+============ Mushrooms Predict =============
+    Class: p
+    Prob. Classe 0: 1
+    Prob. Classe 1: 0
+============================================
+============ Mushrooms Predict =============
+    Class: e
+    Prob. Classe 0: 0
+    Prob. Classe 1: 1
+============================================
+============ Mushrooms Predict =============
+    Class: p
+    Prob. Classe 0: 0,998
+    Prob. Classe 1: 0,002
+============================================
+e model is saved to D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Test\bin\Debug\netcoreapp3.1\Mushrooms\DataSource\MushroomsModelo.zip
+===========================================================
+,8691, the closer to 0, the better
+    LogLoss for class 9 = 1,8497, the closer to 0, the better
+    LogLoss for class 10 = 1,0881, the closer to 0, the better
+    LogLoss for class 11 = 2,08, the closer to 0, the better
+    LogLoss for class 12 = 2,0886, the closer to 0, the better
+    LogLoss for class 13 = 2,4428, the closer to 0, the better
+    LogLoss for class 14 = 3,0199, the closer to 0, the better
+    LogLoss for class 15 = 1,0984, the closer to 0, the better
+    LogLoss for class 16 = 3,0161, the closer to 0, the better
+************************************************************
+=============== Saving the model  =========================
+     The model is saved to D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Test\bin\Debug\netcoreapp3.1\Rodovia\DataSource\RodoviaModelo.zip
+===========================================================
+earning\source\MLSolutions\ML.Test\bin\Debug\netcoreapp3.1\Iris\DataSource\Modelo.zip
+===========================================================
+=============== End all training process ===============

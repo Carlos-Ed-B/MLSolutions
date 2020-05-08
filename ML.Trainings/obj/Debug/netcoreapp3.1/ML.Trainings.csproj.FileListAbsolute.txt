@@ -1,0 +1,17 @@
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Trainings\bin\Debug\netcoreapp3.1\HighwayBrazilAccidents\DataSource\HighwayBrazilAccidents.csv
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Trainings\bin\Debug\netcoreapp3.1\Iris\DataSource\iris-full.txt
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Trainings\bin\Debug\netcoreapp3.1\Mushrooms\DataSource\mushrooms.csv
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Trainings\bin\Debug\netcoreapp3.1\ML.Trainings.deps.json
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Trainings\bin\Debug\netcoreapp3.1\ML.Trainings.dll
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Trainings\bin\Debug\netcoreapp3.1\ML.Trainings.pdb
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Trainings\bin\Debug\netcoreapp3.1\ML.Infrastructure.dll
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Trainings\bin\Debug\netcoreapp3.1\ML.Modes.dll
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Trainings\bin\Debug\netcoreapp3.1\ML.Infrastructure.pdb
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Trainings\bin\Debug\netcoreapp3.1\ML.Modes.pdb
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Trainings\obj\Debug\netcoreapp3.1\ML.Trainings.csprojAssemblyReference.cache
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Trainings\obj\Debug\netcoreapp3.1\ML.Trainings.csproj.CoreCompileInputs.cache
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Trainings\obj\Debug\netcoreapp3.1\ML.Trainings.AssemblyInfoInputs.cache
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Trainings\obj\Debug\netcoreapp3.1\ML.Trainings.AssemblyInfo.cs
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Trainings\obj\Debug\netcoreapp3.1\ML.Trainings.csproj.CopyComplete
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Trainings\obj\Debug\netcoreapp3.1\ML.Trainings.dll
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Trainings\obj\Debug\netcoreapp3.1\ML.Trainings.pdb

@@ -1,0 +1,9 @@
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Modes\bin\Release\netcoreapp3.1\ML.Modes.deps.json
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Modes\bin\Release\netcoreapp3.1\ML.Modes.dll
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Modes\bin\Release\netcoreapp3.1\ML.Modes.pdb
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Modes\obj\Release\netcoreapp3.1\ML.Modes.csprojAssemblyReference.cache
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Modes\obj\Release\netcoreapp3.1\ML.Modes.csproj.CoreCompileInputs.cache
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Modes\obj\Release\netcoreapp3.1\ML.Modes.AssemblyInfoInputs.cache
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Modes\obj\Release\netcoreapp3.1\ML.Modes.AssemblyInfo.cs
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Modes\obj\Release\netcoreapp3.1\ML.Modes.dll
+D:\Documents\Dev\MachineLearning\source\MLSolutions\ML.Modes\obj\Release\netcoreapp3.1\ML.Modes.pdb
